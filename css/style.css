@@ -1,0 +1,18 @@
+
+/* Start image-artical */
+
+.img-artical {
+  background-image: url("../img/google-assistant-on-phone.jpg");
+  background-size: cover;
+  height: 500px;
+}
+
+.img-artical .artical-heading {
+  margin: 190px 0 0 100px;
+}
+
+.artical-btn {
+  margin: 30px 0 0 100px;
+}
+
+/* End image-artical */

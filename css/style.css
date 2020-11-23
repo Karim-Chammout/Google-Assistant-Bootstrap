@@ -1,0 +1,29 @@
+.landing-page .animat-drop {
+  animation: drop 1.5s ease-in-out;
+}
+
+.landing-page .animat-slid {
+  animation: slid 1.5s ease-in-out;
+}
+
+@keyframes slid {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

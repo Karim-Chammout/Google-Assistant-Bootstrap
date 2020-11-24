@@ -6,6 +6,10 @@
   animation: slid 1.5s ease-in-out;
 }
 
+.img-slider .card {
+  min-height: 100%;
+}
+
 @keyframes slid {
   0% {
     opacity: 0;
